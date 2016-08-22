@@ -5,3 +5,5 @@
 if [ -n "$START_SCRIPT" ]; then
   $START_SCRIPT
 fi
+
+exec /docker-entrypoint.sh "$@"
