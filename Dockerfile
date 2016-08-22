@@ -8,3 +8,4 @@ RUN apt-get install -y curl
 ADD bootstrap.sh /bootstrap.sh
 
 ENTRYPOINT ["/bootstrap.sh"]
+CMD ["postgres"]
