@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 [[ $START_SCRIPT == http* ]] && curl -s $START_SCRIPT > /start_script && START_SCRIPT="/start_script" && chmod +x $START_SCRIPT
 
